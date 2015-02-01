@@ -52,4 +52,3 @@ def merge_inversions(list1, list2):
 inputs = [int(line.rstrip('\n\r')) for line in open('IntegerArray.txt')]
 
 print "Number of inversions: %d" % merge_sort_inversions(inputs)[1]
-# print inversions
