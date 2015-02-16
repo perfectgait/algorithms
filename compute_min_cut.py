@@ -55,7 +55,6 @@ lines = [line.strip().rstrip('\r\n').split('\t') for line in open('kargerMinCut.
 
 for line in lines:
     graph[int(line[0])] = [int(i) for i in line[1:]]
-    # print line
 
 minimum_cut = find_minimum_cut(copy.deepcopy(graph))
 
