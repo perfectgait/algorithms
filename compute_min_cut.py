@@ -44,7 +44,6 @@ def merge_edge(graph, u, v):
     for i in graph[v]:
         adjacency_list = graph[i]
 
-        # @TODO Should this be -1?
         for j in range(0, len(adjacency_list)):
             if adjacency_list[j] == v:
                 adjacency_list[j] = u
