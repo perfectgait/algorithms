@@ -9,3 +9,4 @@ The following algorithms are covered:
 * Karger's randomized contraction
 * Dijkstra's shortest-path
 * Kosaraju's two-pass
+* Median Maintenance

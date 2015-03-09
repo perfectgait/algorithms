@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module determines how many inversions exist in a given input"""
+"""This module determines how many inversions exist in a given input using the merge sort algorithm"""
 
 from __future__ import division
 from math import ceil
