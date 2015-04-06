@@ -1,4 +1,4 @@
-# Greedy algorithms from lecture for minimizing the weighted sum of completion times for jobs
+# Greedy algorithms for minimizing the weighted sum of completion times for jobs
 
 ## Problems
 ### Question 1
