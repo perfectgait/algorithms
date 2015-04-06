@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module will compute the number of comparisons used to sort an input using quicksort."""
+"""This will compute the number of comparisons used to sort an input using quick sort."""
 
 from __future__ import division
 from math import ceil, floor
@@ -51,10 +51,8 @@ def choose_pivot(strategy, input, start, end):
 
         # this is actually the odd case because arrays are 0 based
         if length % 2 == 0:
-            # print "odd"
             middle_index = start + int(ceil(length / 2))
         else:
-            # print "even"
             middle_index = start + int(floor(length / 2))
 
         middle = input[middle_index]
