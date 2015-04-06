@@ -1,7 +1,12 @@
 # Algorithms
-## Coursera course Algorithms: Design and Analysis, Part 1 assignments
+## Several algorithms written in python
+### Written for Algorithms: Design and Analysis courses @ coursera
 
-The following algorithms are covered:
+#### Pre-requisites
+
+* Python v2
+
+#### The following algorithms are covered:
 
 * Quick sort
 * Merge sort
