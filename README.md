@@ -8,9 +8,10 @@
 
 #### The following algorithms are covered:
 
-* Quick sort
+* [Quick sort](quick_sort)
 * [Merge sort](merge_sort)
-* Karger's randomized contraction
-* Dijkstra's shortest-path
+* [Karger's randomized contraction](karger)
+* [Dijkstra's shortest-path](dijkstra)
 * Kosaraju's two-pass
-* Median Maintenance
+* [2-SUM](two_sum)
+* [Median Maintenance](median_maintenance)
