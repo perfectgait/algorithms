@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module will compute the shortest paths of a graph using Dijkstra's shortest-path algorithm."""
+"""This will compute the shortest paths of a graph using Dijkstra's shortest-path algorithm."""
 
 import sys
 
