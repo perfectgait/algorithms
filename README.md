@@ -16,3 +16,4 @@
 * [2-SUM](two_sum)
 * [Median Maintenance](median_maintenance)
 * [Greedy](greedy)
+* [Prim's minimum spanning tree](prims)
