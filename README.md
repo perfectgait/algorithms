@@ -9,7 +9,7 @@
 #### The following algorithms are covered:
 
 * Quick sort
-* [Merge sort](merge_sort/README.md)
+* [Merge sort](merge_sort)
 * Karger's randomized contraction
 * Dijkstra's shortest-path
 * Kosaraju's two-pass
