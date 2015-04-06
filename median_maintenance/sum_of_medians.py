@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-"""This module will compute the sum of the medians for some input using the Median Maintenance algorithm"""
+"""This will compute the sum of the medians for some input using the Median Maintenance algorithm"""
 
-from heapq import heappush, heappop, nlargest, nsmallest
+from heapq import heappush, heappop
 
 __author__ = "Matt Rathbun"
 __version__ = "1.0.0"
@@ -27,26 +27,16 @@ def median_maintenance(inputs):
         elif len(heap_high) - len(heap_low) > 1:
             heappush(heap_low, heappop(heap_high) * -1)
 
-        # print heap_low, heap_high
-
         # Find the median
         low_length, high_length = len(heap_low), len(heap_high)
 
         if low_length == high_length or low_length > high_length:
             median_sum += heap_low[0] * -1
-            # print heap_low[0] * -1
         else:
             median_sum += heap_high[0]
-            # print heap_high[0]
 
     return median_sum
 
-
-# test_inputs1 = 54
-# test_inputs2 = 23
-# test_inputs3 = 55
-# test_inputs4 = 148
-# test_inputs5 = 82
 
 print "Reading input file..."
 inputs = [int(line.rstrip('\n\r')) for line in open('Median.txt')]

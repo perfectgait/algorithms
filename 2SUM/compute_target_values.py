@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This module will compute the number of target values t in a specified range such that there are distinct numbers in the
+This will compute the number of target values t in a specified range such that there are distinct numbers in the
 input that satisfy x + y = t.  This uses a hash table (dictionary) to achieve linear time.  This uses a variant of the
 2-SUM algorithm.
 """
