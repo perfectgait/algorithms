@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module will compute the minimum cut from an input using Karger's randomized contraction algorithm."""
+"""This will compute the minimum cut from an input using Karger's randomized contraction algorithm."""
 
 import random, copy
 
