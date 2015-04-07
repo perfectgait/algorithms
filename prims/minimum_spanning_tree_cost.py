@@ -11,15 +11,13 @@ def build_edges(inputs):
     edges = []
 
     for line in inputs:
-        # @TODO Implement this using a heap
         edges.append([int(field) for field in line.split()])
 
     return edges
 
 
 def calculate_cost_of_mst(num_nodes, edges):
-    current_node = 1
-    X = [current_node]
+    X = [1]
     T = []
     total_cost = 0
 
